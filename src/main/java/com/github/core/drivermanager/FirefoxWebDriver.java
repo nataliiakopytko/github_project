@@ -44,4 +44,9 @@ public class FirefoxWebDriver implements DriverProvider {
             }
         }
     }
+
+    @Override
+    public boolean isDriverExist() {
+        return Objects.nonNull(driver);
+    }
 }

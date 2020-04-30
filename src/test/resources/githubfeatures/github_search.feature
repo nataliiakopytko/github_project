@@ -10,4 +10,4 @@ Feature: GitHub testing
     Then I check page header contains "<repository_name>" repository name on Repository page
     Examples:
       | repository_name |
-      | testRepository  |
+      | testRepository1  |

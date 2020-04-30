@@ -43,4 +43,8 @@ public class ChromeWebDriver implements DriverProvider {
             logger.info("The Chrome browser has been closed.");
         }
     }
+    @Override
+    public boolean isDriverExist(){
+        return Objects.nonNull(driver);
+    }
 }

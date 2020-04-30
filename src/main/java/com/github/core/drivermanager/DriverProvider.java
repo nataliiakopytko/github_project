@@ -6,4 +6,6 @@ public interface DriverProvider {
     WebDriver getDriver();
 
     void closeDriver();
+
+    boolean isDriverExist();
 }
