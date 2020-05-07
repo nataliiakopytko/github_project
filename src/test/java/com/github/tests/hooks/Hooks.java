@@ -26,7 +26,7 @@ public class Hooks {
     @Autowired
     private ScreenshotAttachment screenshotAttachment;
 
-    @After(order = 1)
+    @After(order = 10)
     public void embedScreenshot(Scenario scenario) {
         String projectFolder = "target/screenshots";
         embedScreenshotFromFile(scenario, projectFolder);
